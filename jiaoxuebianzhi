@@ -1,0 +1,23 @@
+数据结构类型定义:
+typedef struct VNODE { }VexNode; //顶点表结点
+typedef struct ARCNODE EdgeNode;//邻接表结点
+typedef struct MESSAGE { }Message; //每学期的学期信息
+typedef struct ALGRAPH { }ALGraph; //图
+int Locate(char* ch) { }//将C1C2C3……等变为1 2 3…
+void Creat_Graph1(ALGraph* G) { }//输入学期总数 学分上限 课程总数(顶点数量)
+void Creat_Graph2(ALGraph* G) { }//从文件读取课程信息
+void Top_Sort(VexNode g[], int n,VexNode temp){ }//用有入度域的aov网进行拓扑排序，输出并存到数组temp中
+void Sort1(VexNode t, Message* s, int VexNum)//按各学期负担均匀输出并保存教学计划
+void Sort2(VexNode* t,Message *s,int VexNum)//按课程尽可能集中在前几学期输出并保存教学计划
+int main(){ }//主函数数据结构类型定义:
+typedef struct VNODE { }VexNode; //顶点表结点
+typedef struct ARCNODE EdgeNode;//邻接表结点
+typedef struct MESSAGE { }Message; //每学期的学期信息
+typedef struct ALGRAPH { }ALGraph; //图
+int Locate(char* ch) { }//将C1C2C3……等变为1 2 3…
+void Creat_Graph1(ALGraph* G) { }//输入学期总数 学分上限 课程总数(顶点数量)
+void Creat_Graph2(ALGraph* G) { }//从文件读取课程信息
+void Top_Sort(VexNode g[], int n,VexNode temp){ }//用有入度域的aov网进行拓扑排序，输出并存到数组temp中
+void Sort1(VexNode t, Message* s, int VexNum)//按各学期负担均匀输出并保存教学计划
+void Sort2(VexNode* t,Message *s,int VexNum)//按课程尽可能集中在前几学期输出并保存教学计划
+int main(){ }//主函数
